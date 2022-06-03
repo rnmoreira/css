@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portflow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div>
+                <h1 class="title">Portflow</h1>
+            </div>
+            <ul class="nav-list" id="nav-list">
+                <li class="list-item"><a href="#">Home</a></li>
+                <li class="list-item"><a href="#">Blog</a></li>
+                <li class="list-item"><a href="#">Valores</a></li>
+                <li class="list-item"><a href="#">Portfólio</a></li>
+                <li class="list-item"><a href="#">Contatos</a></li>
+            </ul>
+            <div class="menu" id="tooglebutton">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    </header>
+<section class="banner">
+    <div class="container-orange">
+        <div>
+            <h2>
+                Imagine, Discuta, Desenhe.
+            </h2>
+
+            <p class="text-menu">FALE CONOSCO</p>
+        </div>
+        
+</section>
+<main>
+    <section class="principal">
+        <div class="conteiner">
+            <div class="box">
+                <img src="ervamate.png" alt="" class="imagem">
+            </div>
+            <div class="box">
+                <img src="paoqueijo.png" alt="" class="imagem">
+            </div>
+            <div class="box">
+                <img src="docedeleite.png" alt="" class="imagem">
+            </div>
+            <div class="box">
+                <img src="computador.png" alt="" class="imagem">
+            </div>
+            <div class="box">
+                <img src="graphics.png" alt="" class="imagem">
+            </div>
+            <div class="box">
+                <img src="caneca.png" alt="" class="imagem">
+            </div>
+            <div class="box">
+                <img src="othercomputer.png" alt="" class="imagem">
+            </div>
+            <div class="box">
+                <img src="barranatural.png" alt="" class="imagem">
+            </div>
+            <div class="box">
+                <img src="smartphone.png" alt="" class="imagem">
+            </div>
+            <div class="box">
+                <img src="coffee.png" alt="" class="imagem">
+            </div>
+            <div class="box">
+                <img src="equipamentos.png" alt="" class="imagem">
+            </div>
+            <div class="box">
+                <img src="fotos.png" alt="" class="imagem">
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="sociais">
+        <div class="rodapecinza"><img src="iconfacebook.svg" class="rodape_responsivo" alt="ícone do facebook"></div>
+            
+        <div class="rodapecinza"><img src="icontwitter.svg" class="rodape_responsivo" alt="ícone do twitter"></div>
+            
+        <div class="rodapecinza"><img src="iconinsta.svg" class="rodape_responsivo" alt="ícone do instagram"></div>
+        
+        <div class="rodapecinza"><img src="icontelegram.svg" class="rodape_responsivo" alt="ícone do telegram"></div>
+        
+        <div class="rodapecinza"><img src="iconzap.svg" class="rodape_responsivo" alt="ícone do whatsapp"></div>
+        
+        <div class="rodapecinza"><img src="iconyoutube.svg" class="rodape_responsivo" alt="ícone do youtube"></div>
+
+        <div class="copyright"><h6>Copyright</h6></div>
+        <div class="mensagem">Layout Produzido Por Vai Na Web Para Fins Exclusivamente Educacionais</div>
+    </div>
+</footer>
+</body>
+<script>
+    const tooglebutton = document.getElementById('tooglebutton')
+    const navlist=document.getElementById('nav-list')
+    tooglebutton.addEventListener('click', () =>{
+        navlist.classList.toggle('active');
+    })
+</script>
+</html>
